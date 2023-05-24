@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextParser", "TextParser\TextParser.csproj", "{505B17A5-0A3B-45B3-BC60-F9CAA04E6083}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextProcessing", "TextProcessing\TextProcessing.csproj", "{FC046B3C-95A7-4183-8B75-8E36C56A82BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{505B17A5-0A3B-45B3-BC60-F9CAA04E6083}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{505B17A5-0A3B-45B3-BC60-F9CAA04E6083}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{505B17A5-0A3B-45B3-BC60-F9CAA04E6083}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{505B17A5-0A3B-45B3-BC60-F9CAA04E6083}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC046B3C-95A7-4183-8B75-8E36C56A82BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC046B3C-95A7-4183-8B75-8E36C56A82BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC046B3C-95A7-4183-8B75-8E36C56A82BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC046B3C-95A7-4183-8B75-8E36C56A82BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {686D2BE8-B6EE-4CE0-8280-12450800CC46}
+	EndGlobalSection
+EndGlobal
