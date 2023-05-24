@@ -14,6 +14,7 @@ namespace TextProcessing
             MethodInfo? PrivateGetAllUniqWords = GetMethodFromAssembly(_namePrivateMethod);
             MethodInfo? PublicGetAllUniqWords = GetMethodFromAssembly(_namePublicMethod);
             Stopwatch stopWatch = new Stopwatch();
+
             Console.WriteLine("Введите полный путь к текстовому файлу:");
             string path = Console.ReadLine();
             if(path.Length == 0) 
@@ -27,11 +28,11 @@ namespace TextProcessing
                 TxtFileReader txtFileReader = new TxtFileReader(path);
                 string text = txtFileReader.ReadFile();
                 stopWatch.Start();
-                Dictionary<string, int> allUniqWordsCons = PrivateGetAllUniqWords.Invoke(null, new object[] { text }) as Dictionary<string, int>;
+                Dictionary<string, int> allUniqWordsCons = PrivateGetAllUniqWords?.Invoke(null, new object[] { text }) as Dictionary<string, int>;
                 stopWatch.Stop();
                 Console.WriteLine("Время выполнения обычного метода: {0}", stopWatch.Elapsed.ToString());
                 stopWatch.Start();
-                Dictionary<string, int> allUniqWordsParal = PublicGetAllUniqWords.Invoke(null, new object[] { text }) as Dictionary<string, int>;
+                Dictionary<string, int> allUniqWordsParal = PublicGetAllUniqWords?.Invoke(null, new object[] { text }) as Dictionary<string, int>;
                 stopWatch.Stop();
                 Console.WriteLine("Время выполнения параллельного метода: {0}", stopWatch.Elapsed.ToString());
                 TxtFileWriter txtFileWriter = new TxtFileWriter("TextStatistics.txt");
