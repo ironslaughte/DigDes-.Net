@@ -1,0 +1,131 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\C#\\Домашнее №3\\WebService\\WebService.csproj": {}
+  },
+  "projects": {
+    "E:\\C#\\Домашнее №3\\TextParser\\TextParser.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\C#\\Домашнее №3\\TextParser\\TextParser.csproj",
+        "projectName": "TextParser",
+        "projectPath": "E:\\C#\\Домашнее №3\\TextParser\\TextParser.csproj",
+        "packagesPath": "C:\\Users\\anm75\\.nuget\\packages\\",
+        "outputPath": "E:\\C#\\Домашнее №3\\TextParser\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\anm75\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\C#\\Домашнее №3\\WebService\\WebService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\C#\\Домашнее №3\\WebService\\WebService.csproj",
+        "projectName": "WebService",
+        "projectPath": "E:\\C#\\Домашнее №3\\WebService\\WebService.csproj",
+        "packagesPath": "C:\\Users\\anm75\\.nuget\\packages\\",
+        "outputPath": "E:\\C#\\Домашнее №3\\WebService\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\anm75\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "E:\\C#\\Домашнее №3\\TextParser\\TextParser.csproj": {
+                "projectPath": "E:\\C#\\Домашнее №3\\TextParser\\TextParser.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

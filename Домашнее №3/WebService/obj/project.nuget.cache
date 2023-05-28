@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "wI6aaQ2roy5fBjmSgEELIzX6v3erjVSEs2RDWjecXc/N2vwxKhry8JdxZ/Ugsa/IHBGG32AwYDHMx0Lc4bHu+A==",
+  "success": true,
+  "projectFilePath": "E:\\C#\\Домашнее №3\\WebService\\WebService.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\anm75\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
