@@ -1,0 +1,12 @@
+E:\C#\TextProcessing\TextParser\bin\Release\net7.0\TextParser.deps.json
+E:\C#\TextProcessing\TextParser\bin\Release\net7.0\TextParser.dll
+E:\C#\TextProcessing\TextParser\bin\Release\net7.0\TextParser.pdb
+E:\C#\TextProcessing\TextParser\obj\Release\net7.0\TextParser.csproj.AssemblyReference.cache
+E:\C#\TextProcessing\TextParser\obj\Release\net7.0\TextParser.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\TextProcessing\TextParser\obj\Release\net7.0\TextParser.AssemblyInfoInputs.cache
+E:\C#\TextProcessing\TextParser\obj\Release\net7.0\TextParser.AssemblyInfo.cs
+E:\C#\TextProcessing\TextParser\obj\Release\net7.0\TextParser.csproj.CoreCompileInputs.cache
+E:\C#\TextProcessing\TextParser\obj\Release\net7.0\TextParser.dll
+E:\C#\TextProcessing\TextParser\obj\Release\net7.0\refint\TextParser.dll
+E:\C#\TextProcessing\TextParser\obj\Release\net7.0\TextParser.pdb
+E:\C#\TextProcessing\TextParser\obj\Release\net7.0\ref\TextParser.dll

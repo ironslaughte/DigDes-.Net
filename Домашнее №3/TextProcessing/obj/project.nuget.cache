@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "oTKGAmbkUpPC3iCTErcdil2IG9I4N1l16QpHPFmVRZO7MGrHcG2qKmEHcS1FaXhCSXaINu/eRFFgWEa9dwSz8w==",
+  "success": true,
+  "projectFilePath": "E:\\C#\\Домашнее №3\\TextProcessing\\TextProcessing.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\anm75\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
